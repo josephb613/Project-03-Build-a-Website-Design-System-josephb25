@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik+Iso&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* balise pour cree l'effet de defillemant lante */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Capriola', sans-serif;
+}
+
+
+.banner {
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.banner img {
+
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.text-banner {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+/* header de la page  */
+.header {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0;
+  width: 96.6%;
+  padding: 25px;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+}
+
+/*  side par */
+
+.sidebar {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 130px;
+  /* deplacement du side bar de haut en bas */
+  bottom: 0;
+  left: 0;
+  /* margin-bottom: 15px; */
+  margin-bottom: 55px;
+  /* cette propriete permet de reduire notre side bar */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.sidebarlist li {
+  margin: 20px 0 20px 0;
+}
+
+/* conteneu de la page  */
+
+
+.content {
+
+  padding: 5px;
+  margin-left: 250px;
+}
+
+
+.banner img {
+  width: 100%;
+  height: 50%;
+}
+
+.logo,
+.sidebar,
+.header {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#fonts,
+#colors,
+#text-styles,
+#grids,
+#forme {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding-top: 90px;
+  border-radius: 20px;
+  height: 100%;
+  /* ajustez la valeur en fonction de la hauteur de votre en-tête */
+}
+
+/* paramettre section colors */
+
+#fonts {
+  height: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* paramettre section colors */
+
+
+/* paramettre general container*/
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  color: gainsboro;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#colors {
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Capriola', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteneur {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 80px 80px 80px;
+  margin: 0 19%;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
+span {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.box1 {
+  background-color: bisque;
+  align-items: center;
+}
+
+.box2 {
+  background-color: #000;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  background-color: aqua;
+}
+
+.box5 {
+  background-color: darkgreen;
+}
+
+.box6 {
+  background-color: mediumorchid;
+}
+
+.footer {
+  background-image: linear-gradient(45deg, #11d76c 0%, #5d6c9b 100%);
+  ;
+  padding: 2px;
+  text-align: center;
+  margin-bottom: -40px;
+  border-radius: 5px;
+  color: red;
+}
+
+/* .rectangle {
+  width: 100px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 20px;
+} */
